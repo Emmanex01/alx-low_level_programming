@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char loweruppercase;
+	char b;
 
-	for (loweruppercase = 'a'; loweruppercase >= 'z'; ++loweruppercase)
-		putchar(loweruppercase);
-	for (loweruppercase = 'A'; loweruppercase >= 'Z'; ++loweruppercase)
-		putchar(loweruppercase);
+	for (b = 'a'; b >= 'z'; ++b)
+		putchar(b);
+	for (b = 'A'; b >= 'Z'; ++b)
+		putchar(b);
 	putchar('\n');
 	return (0);
 }
