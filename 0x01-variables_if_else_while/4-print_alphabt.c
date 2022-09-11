@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- *  Return: always return 0
+ * Return: alway returns 0
+ *
  */
+
 int main(void)
 {
 	char a;
 
-	for (a = 'a'; a >= 'z'; ++a)
+	for (a = 'a'; a <= 'z' ; a++)
 	{
 		if (a == 'q' || a == 'e')
 		{
@@ -16,6 +19,6 @@ int main(void)
 		}
 		putchar(a);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
