@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * _islower - main function
+ * print_alphabet - prints alphabet
  *
- * @c: character to compare
- *
- * Return: 1 if true, 0 if false
+ * Return: always 0;
  *
  */
 void print_alphabet_x10(void)
