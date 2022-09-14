@@ -1,5 +1,3 @@
-#include <ctype.h>
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,8 +7,9 @@
  */
 int _islower(int c)
 {
-	char a;
-
-	scanf("%s\n", &a);
-	_putchar(islower(a));
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	return (0);
 }
