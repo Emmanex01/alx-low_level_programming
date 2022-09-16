@@ -28,5 +28,11 @@ int mul(int a, int b);
  * Return: always return 0                                                                                                              
  */
 int _putchar();
+void print_numbers(void);
+/**                                                                                                                                     
+ * print_numbers - prints numbers                                                                                                       
+ *                                                                                                                                      
+ * Return: alwyas 0                                                                                                                     
+ */
  
  #endif
