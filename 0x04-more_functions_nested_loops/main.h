@@ -34,5 +34,10 @@ void print_numbers(void);
  *                                                                                                                                      
  * Return: alwyas 1                                                                                                                    
  */
+void print_most_numbers(void);
+/**                                                                                                                                     
+ * print_most_numbers - prints numbers except 2 and 4                                                                                   
+ *                                                                                                                                      
+ */
  
  #endif
