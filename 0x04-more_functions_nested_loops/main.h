@@ -58,5 +58,6 @@ void print_diagonal(int n);
  * @n: number of times
  *
  */
+void print_square(int size);
  
  #endif
