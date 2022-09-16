@@ -32,7 +32,7 @@ void print_numbers(void);
 /**                                                                                                                                     
  * print_numbers - prints numbers                                                                                                       
  *                                                                                                                                      
- * Return: alwyas 0                                                                                                                     
+ * Return: alwyas 1                                                                                                                    
  */
  
  #endif
