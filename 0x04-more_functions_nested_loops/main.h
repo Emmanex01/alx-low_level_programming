@@ -52,5 +52,11 @@ void print_line(int n);
  *                                                                                                                                      
  */
 void print_diagonal(int n)
+ /**
+ * print_diagonal - prints / diagonally
+ *
+ * @n: number of times
+ *
+ */
  
  #endif
