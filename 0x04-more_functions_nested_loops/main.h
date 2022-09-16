@@ -39,5 +39,10 @@ void print_most_numbers(void);
  * print_most_numbers - prints numbers except 2 and 4                                                                                   
  *                                                                                                                                      
  */
+void more_numbers(void);
+/**                                                                                                                                     
+ * more_numbers - prints numbers 10times                                                                                                
+ *                                                                                                                                      
+ */
  
  #endif
