@@ -51,5 +51,6 @@ void print_line(int n);
  * @n: number of line                                                                                                                   
  *                                                                                                                                      
  */
+void print_diagonal(int n)
  
  #endif
