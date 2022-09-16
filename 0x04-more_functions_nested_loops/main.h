@@ -44,5 +44,12 @@ void more_numbers(void);
  * more_numbers - prints numbers 10times                                                                                                
  *                                                                                                                                      
  */
+void print_line(int n);
+/**                                                                                                                                     
+ * print_line - prints line                                                                                                             
+ *                                                                                                                                      
+ * @n: number of line                                                                                                                   
+ *                                                                                                                                      
+ */
  
  #endif
