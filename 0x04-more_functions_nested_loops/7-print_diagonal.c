@@ -6,6 +6,7 @@
  * @n: number of times
  *
  */
+
 void print_diagonal(int n)
 {
 	int i;
