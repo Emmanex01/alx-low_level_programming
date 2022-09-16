@@ -17,5 +17,16 @@ int _isdigit(int c);
  *                                                                                                                                      
  * Return: 1 if true and 0 if false                                                                                                     
  */
+int mul(int a, int b);
+/**                                                                                                                                     
+ *                                                                                                                                      
+ * mul - multiplies two integer                                                                                                         
+ *                                                                                                                                      
+ * @a: integer                                                                                                                          
+ * @b: integer                                                                                                                          
+ *                                                                                                                                      
+ * Return: always return 0                                                                                                              
+ */
+int _putchar();
  
  #endif
