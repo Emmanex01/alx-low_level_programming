@@ -1,6 +1,7 @@
 #ifndef _MAIN_
 #define _MAIN_
 
+_putchar();
 void _puts_recursion(char *s);
 /**                                                                                                                                    
  * _puts_recursion - prints a string                                                                                                   
