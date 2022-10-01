@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#define UNUSED(x) (void)(x)
 
 /**
  * main - prints the program's name
@@ -8,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	_putchar(argv[0]);
-	_putchar('\n');
+	UNUSED(argc);
+	printf("%s\n", argv[0]);
 	return (0);
 }
