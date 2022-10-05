@@ -1,15 +1,22 @@
+#include "main.h"
 #include <stdio.h>
-/**
- * main - multiplies two numbers
- * @argc: counts number of arg
- * @argv: arrray of strings
- * @a: input number
- * @b: input number
- * Return: always 0
- */
-int main(int argc, char *argv[])
-{
-	int a, b;
-	int result;
+#include <stdlib.h>
 
+/**
+ * main - main function
+ * @argc: argumentc
+ * @argv: vector of arguments
+ *Return: always 0
+ */
+
+int main(int argc, char  *argv[])
+{
+	if (argc == 3)
+	{
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
+	}
+	else
+		printf("Error\n");
+	return (1);
 }
