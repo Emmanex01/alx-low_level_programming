@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * main - prints file name
+ * main - check the code for Holberton School students.
+ *
+ * Return: success.
  */
-int main()
+int main(void)
 {
-	printf("%s\n", __FILE__);
+printf("%s\n", __FILE__);
+return (0);
 }
