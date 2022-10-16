@@ -28,5 +28,3 @@ printf("Owner: (nil)\n");
 }
 }
 }
-Footer
-© 2022
